@@ -1,6 +1,6 @@
 .container {
   /*行内容器*/
   display: flex;
-  /*容器里的元素的垂直倒序排序*/
-  flex-direction: column-reverse;
+  /*容器里的元素是否在同一行显示 默认为不换行:nowrap*/
+  flex-wrap: nowrap;
 }
