@@ -1,6 +1,6 @@
 .container {
   /*行内容器*/
   display: flex;
-  /*容器里的元素换行倒序显示*/
-  flex-wrap: wrap-reverse;
+  /*row wrap的快速设置方法*/
+  flex-flow: row-reverse wrap;
 }
