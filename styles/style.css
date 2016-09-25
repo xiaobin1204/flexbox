@@ -1,6 +1,6 @@
 .container {
   /*行内容器*/
   display: flex;
-  /*元素间的间距对齐 居中对齐显示*/
-  justify-content: center;
+  /*元素间的间距对齐 添加间隔*/
+  justify-content: space-between;
 }
