@@ -1,15 +1,7 @@
 .container {
   /*行内容器*/
   display: flex;
-  /*元素间的间距对齐 添加间隔 给项目的周围也添加一个间隔*/
-  justify-content: space-around;
+  flex-wrap: wrap;
   height: 300px;
-  /*项目内垂直对齐 机械对齐*/
-  align-items: baseline;
-}
-.item-1 {
-  padding-top: 50px;
-}
-.item-3 {
-  padding-top: 70px;
+  align-content: stretch;
 }
