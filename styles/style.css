@@ -1,6 +1,6 @@
 .container {
   /*行内容器*/
   display: flex;
-  /*容器里的元素的水平倒序排序*/
-  flex-direction: row-reverse;
+  /*容器里的元素的垂直默认排序*/
+  flex-direction: column;
 }
