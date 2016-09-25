@@ -4,5 +4,5 @@
   flex-wrap: wrap;
   height: 300px;
   /*靠近顶部显示*/
-  align-content: flex-end;
+  align-content: center;
 }
