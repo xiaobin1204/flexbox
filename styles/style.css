@@ -9,3 +9,15 @@
 .item-1 {
   align-self: flex-end;
 }
+.item-2 {
+  align-self: center;
+}
+.item-3 {
+  align-self: stretch;
+}
+.item-4 {
+  align-self: center;
+}
+.item-5 {
+  align-self: flex-end;
+}
