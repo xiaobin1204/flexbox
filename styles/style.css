@@ -5,5 +5,5 @@
   justify-content: space-around;
   height: 300px;
   /*项目内垂直对齐 靠容器最上面显示*/
-  align-items: flex-start;;
+  align-items: flex-end;
 }
