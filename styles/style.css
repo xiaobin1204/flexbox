@@ -4,6 +4,6 @@
   /*元素间的间距对齐 添加间隔 给项目的周围也添加一个间隔*/
   justify-content: space-around;
   height: 300px;
-  /*项目内垂直对齐 默认拉伸*/
-  align-items: stretch;
+  /*项目内垂直对齐 靠容器最上面显示*/
+  align-items: flex-start;;
 }
