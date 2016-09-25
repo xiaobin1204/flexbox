@@ -1,6 +1,6 @@
 .container {
   /*行内容器*/
   display: flex;
-  /*row wrap的快速设置方法*/
-  flex-flow: row-reverse wrap;
+  /*元素间的间距*/
+  justify-content: flex-start; /*默认值*/
 }
