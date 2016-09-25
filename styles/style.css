@@ -3,6 +3,6 @@
   display: flex;
   flex-wrap: wrap;
   height: 300px;
-  /*靠近顶部显示*/
-  align-content: center;
+  /*靠近顶部显示 在不拉伸显示的情况下在行与行直接添加一个间距*/
+  align-content: space-between;
 }
