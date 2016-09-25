@@ -7,10 +7,12 @@
 /*给所有项目设置一个宽*/
 .item {
   /*改变默认设置的宽度*/
-  flex-basis: 100px;
+  /*flex-basis: 100px;*/
+  /*flex标签等效写法0是flex-grow  auto 1是flexbasis*/
+  flex: 0 1 100px;
 }
 /*单独给item-3设置一个宽度*/
 .item-3 {
   /*让item-3比其他元素更容易缩小*/
-  flex-shrink: 3;
+  /*flex-shrink: 3;*/
 }
