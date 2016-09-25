@@ -6,9 +6,11 @@
 }
 /*给所有项目设置一个宽*/
 .item {
-  flex-grow: 1;
+  /*改变默认设置的宽度*/
+  flex-basis: 100px;
 }
 /*单独给item-3设置一个宽度*/
 .item-3 {
-  flex-grow: 6;
+  /*不让item-3的宽度随着浏览器的缩小而缩小*/
+  flex-shrink: 0;
 }
