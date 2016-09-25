@@ -3,5 +3,6 @@
   display: flex;
   flex-wrap: wrap;
   height: 300px;
-  align-content: stretch;
+  /*靠近顶部显示*/
+  align-content: flex-start;
 }
