@@ -1,6 +1,6 @@
 .container {
   /*行内容器*/
   display: flex;
-  /*容器里的元素是否在同一行显示 默认为不换行:nowrap*/
-  flex-wrap: nowrap;
+  /*容器里的元素是否换行显示*/
+  flex-wrap: wrap;
 }
