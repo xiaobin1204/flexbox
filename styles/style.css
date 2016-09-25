@@ -2,14 +2,13 @@
   /*行内容器*/
   display: flex;
   height: 300px;
-  justify-content: space-around;
   align-items: flex-start;
 }
-/*让item1在所有元素最后显示*/
-.item-1 {
-  order: 1;
+/*给所有项目设置一个宽*/
+.item {
+  flex-grow: 1;
 }
-/*让item5在所有元素最前显示*/
-.item-5 {
-  order: -1;
+/*单独给item-3设置一个宽度*/
+.item-3 {
+  flex-grow: 6;
 }
