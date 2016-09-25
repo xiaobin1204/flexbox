@@ -1,8 +1,15 @@
 .container {
   /*行内容器*/
   display: flex;
-  flex-wrap: wrap;
   height: 300px;
-  /*靠近顶部显示 在不拉伸显示的情况下在行与行直接添加一个间距*/
-  align-content: space-around;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+/*让item1在所有元素最后显示*/
+.item-1 {
+  order: 1;
+}
+/*让item5在所有元素最前显示*/
+.item-5 {
+  order: -1;
 }
