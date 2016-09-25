@@ -1,4 +1,6 @@
 .container {
   /*行内容器*/
-  display: inline-flex;
+  display: flex;
+  /*容器里的元素的水平默认排序*/
+  flex-direction: row;
 }
